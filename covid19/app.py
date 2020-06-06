@@ -342,7 +342,7 @@ app.layout = html.Div(
                                 build_banner(),
                                 html.P(
                                     id="instructions",
-                                    children="Select Clusters and you will see the the municipalities in different clusters, and ...",
+                                    children="Select the desired cluster, province and municipality",
                                 ),
                                 build_graph_title("Select cluster"),
                                 dcc.Dropdown(id='cluster',
